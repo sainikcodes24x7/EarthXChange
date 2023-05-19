@@ -164,7 +164,7 @@ nav .toggle_btn {
 /* Dropdown Menu */
 .dropdown_menu{
   display: none;
-  position: absolute;
+  position: fixed;
   right: 3rem;
   top: 4.2rem;
   height: 0;

@@ -10,6 +10,7 @@ h1 {
   font-size: 3rem;
   opacity: 0.8;
 }
+
 h2,
 p {
   color: #658ec6;
@@ -35,13 +36,17 @@ main {
 .climate-change {
   background: white;
   min-height: 80vh;
-  width: 60%;
-  margin: 7rem;
+  width: 90%;
+  max-width: 60rem;
+  margin: 2rem;
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(2rem);
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .circle1,
 .circle2 {
   background: white;
@@ -52,20 +57,43 @@ main {
   );
   height: 20rem;
   width: 20rem;
-  position: absolute;
   border-radius: 50%;
 }
 
 .circle1 {
   top: 5%;
   right: 15%;
+  position: absolute;
 }
+
 .circle2 {
   bottom: 5%;
   left: 10%;
+  position: absolute;
 }
 
-img{
+img {
   box-sizing: content-box;
+  max-width: 100%;
+  height: auto;
 }
 
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .climate-change {
+    width: 95%;
+    margin: 1rem;
+  }
+  
+  .circle1,
+  .circle2 {
+    height: 12rem;
+    width: 12rem;
+  }
+}

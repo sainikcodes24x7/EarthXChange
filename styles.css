@@ -312,10 +312,10 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 
 .progress-icon {
   position: absolute;
-  right: 0;
-  top: -15px;
-  height: 20px;
-  width: 20px;
+  right: -15px;
+  top: -10px;
+  height: 35px;
+  width: 35px;
 }
 
 .progress-icon>img {
@@ -363,4 +363,8 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
     padding: 0.75rem;
     margin: 0.25rem;
   }
+}
+.progress-icon>img{
+  height: 35px;
+  width: 35px;
 }

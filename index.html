@@ -49,19 +49,48 @@
     </main>
     <div class="circle1"></div>
     <div class="circle2"></div>
-    <div><h1>Hello climateXchange</h1></div>
 
-    <script>
-      const toggleBtn = document.querySelector('.toggle_btn')
-      const toggleBtnIcon = document.querySelector('.toggle_btn i')
-      const dropDownMenu = document.querySelector('.dropdown_menu')
 
-      toggleBtn.onclick = function() {
-          dropDownMenu.classList.toggle('open')
-          const isOpen = dropDownMenu.classList.contains('open')
+    <!--Timer section starts-->
+    <section class="countdown-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="event-date">
+              <h1>Event Date:</h1>
+              <h2>5th June, 2023</h2>
+            </div>
+          </div>
+          <div class="col">
+            <div class="counter">
+              <div class="day">
+                <h2 class="day-text">Time</h2>
+                <h3>Days</h3>
+              </div>
+              <div class="hour">
+                <h2 class="hour-text">Time</h2>
+                <h3>Hrs</h3>
+              </div>
+              <div class="minute">
+                <h2 class="minute-text">Time</h2>
+                <h3>Mins</h3>
+              </div>
+              <div class="day">
+                <h2 class="second-text">Time</h2>
+                <h3>Secs</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Progress_Status">
+        <div class="myprogressBar">
+            <div class="progress-icon"><img src="assets/planet-earth.png" alt="" class="icon-image"></div>
+        </div>
+      </div>
+      <script src="scripts/countdown.js"></script>
+    </section>
 
-          toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark fa-xl' : 'fa-solid fa-bars fa-xl'
-      }
-  </script>
+    <script src="scripts/nav.js"></script>
   </body>
 </html>

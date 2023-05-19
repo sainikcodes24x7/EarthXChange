@@ -175,6 +175,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   border-radius: 0.75rem;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 7;
 }
 
 .dropdown_menu.open{
@@ -215,4 +216,71 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
       left: 3rem;
       width: unset;
   }
+}
+
+/* Timer section css */
+.container{
+  margin-bottom: 30px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.countdown-section{
+  padding: 2rem 3rem;
+}
+.event-date{
+  height: 100%;
+  width: 100%;
+  flex: 0.5;
+}
+.event-date> h1{
+  font-size: 40px;
+}
+.event-date> h2{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.counter{
+  display: flex;
+}
+.day, .hour, .minute, .second{
+  width: 6rem;
+  padding:  1.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.Progress_Status {
+  height: 20px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 25px;
+}
+  
+.myprogressBar {
+  position: relative;
+  width: 1%;
+  height: 20px;
+  border-radius: 25px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  transition: ease;
+}
+.progress-icon{
+  position: absolute;
+  right: 0;
+  top: -15px;
+  height: 20px;
+  width: 20px;
+}
+.progress-icon>img{
+  height: 40px;
+  width: 40px;
 }

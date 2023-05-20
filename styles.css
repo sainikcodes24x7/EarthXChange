@@ -390,9 +390,9 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 }
 .about-text{
   position: absolute;
-  height: auto;
+  height: 50%;
   width: 500px;
-  top: 400px;
+  top: 35%;
 }
 .about-heading{
   font-size: 35px;
@@ -410,7 +410,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 330px;
-    top: 300px;
+    /* top: 300px; */
   }
   .about-heading>img{
     height: 80px;
@@ -420,7 +420,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 @media (max-width: 720px){
   .about{
     padding: 1rem;
-    height: 60vh;
+    height: 70vh;
     background-size: 100% 100%;
   }
   .about-heading{
@@ -429,7 +429,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 250px;
-    top: 200px;
+    /* top: 200px; */
   }
   .about-heading>img{
     height: 30px;
@@ -439,7 +439,6 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 @media (max-width: 550px){
   .about{
     padding: 1rem;
-    height: 50vh;
   }
   .about-heading{
     font-size: 10px !important;
@@ -447,7 +446,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 150px;
-    top: 150px;
+    /* top: 150px; */
   }
   .about-text>p{
     font-size: 11px;

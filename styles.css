@@ -699,6 +699,9 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   color: #fff;
   background: linear-gradient(to right top, #053c17, #d4ea92b8);
 }
+#faqs{
+  padding: 2rem 3rem;
+}
 .wrapper {
   padding:0px;
   max-width: 80%;
@@ -755,10 +758,19 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 }
 
 .faqtext{
-  font-family: 'Bree Serif', serif;
-  color:white;
+  color:black;
   font-size: 1.5rem;
   text-align:center;
 
 }
+@media (max-width: 600px) {
+  #faqs{
+    padding: 2rem 1rem;
+  }
+  .wrapper{
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
 

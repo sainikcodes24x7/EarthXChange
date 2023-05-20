@@ -35,6 +35,9 @@ main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #053c17, #d4ea92b8);
+  /* background-image: url(./assets/Artboard\ 1.png); */
+    /* background-size: cover;
+    background-position: center; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,7 +188,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 }
 
 .dropdown_menu.open{
-  height:10rem;
+  height:11rem;
 }
 
 .dropdown_menu li{

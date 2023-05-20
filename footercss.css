@@ -116,6 +116,9 @@ footer ul{
     .contacts-footer{
         padding: 0 15px;
     }
+    .footer {
+        padding: 1rem;
+    }
 }
 
 @media(max-width: 574px){

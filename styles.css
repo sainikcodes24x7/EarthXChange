@@ -449,7 +449,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 150px;
-    top: 140px;
+    top: 120px;
   }
   .about-text>p{
     font-size: 11px;

@@ -368,8 +368,6 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   .hour,
   .minute,
   .second {
-    height: 3.5rem;
-    width: 3.5rem;
     padding: 0.75rem;
     margin: 0.25rem;
   }

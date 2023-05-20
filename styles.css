@@ -292,6 +292,14 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
     margin: 0.25rem;
   }
 }
+@media (max-width: 360px){
+  .day,
+  .hour,
+  .minute,
+  .second>h1{
+    font-size: 12px;
+  }
+}
 
 .Progress_Status {
   height: 20px;

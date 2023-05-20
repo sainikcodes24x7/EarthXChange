@@ -412,7 +412,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 330px;
-    top: 350px;
+    top: 300px;
   }
   .about-heading>img{
     height: 80px;
@@ -421,7 +421,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 }
 @media (max-width: 720px){
   .about{
-    padding: 3rem;
+    padding: 1rem;
     height: 60vh;
     background-size: 100% 100%;
   }
@@ -431,7 +431,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 250px;
-    top: 250px;
+    top: 200px;
   }
   .about-heading>img{
     height: 30px;
@@ -441,7 +441,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 @media (max-width: 550px){
   .about{
     padding: 1rem;
-    height: 40vh;
+    height: 50vh;
   }
   .about-heading{
     font-size: 10px !important;
@@ -449,7 +449,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   }
   .about-text{
     width: 150px;
-    top: 120px;
+    top: 150px;
   }
   .about-text>p{
     font-size: 11px;

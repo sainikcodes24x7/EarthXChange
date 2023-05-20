@@ -658,6 +658,10 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   font-size: 2.5rem;
 }
 
+#tracks-container h2{
+  font-size: 1.75rem;
+}
+
 #tracks{
   margin: 34px;
   display: flex;

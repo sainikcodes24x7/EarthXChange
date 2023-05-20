@@ -499,6 +499,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 .speaker-container .card .imgBx{
   position: absolute;
   top: 20px;
+  left: 24px;
   width: 300px;
   height: 220px;
   background: #333;
@@ -588,6 +589,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   .speaker-container .card .imgBx{
       position: absolute;
       top: 20px;
+      left: 15px;
       width: 220px;
       height: 150px;
       background: #333;

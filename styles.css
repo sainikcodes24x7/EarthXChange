@@ -35,6 +35,9 @@ main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #053c17, #d4ea92b8);
+  /* background-image: url(./assets/Artboard\ 1.png); */
+    /* background-size: cover;
+    background-position: center; */
   display: flex;
   align-items: center;
   justify-content: center;

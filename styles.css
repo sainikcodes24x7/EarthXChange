@@ -667,11 +667,12 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 }
 #tracks .box{ 
   padding: 2rem;
+  padding-bottom: 4rem;
   margin: 5px;
   border-top-left-radius: 3.5rem;
   border-bottom-right-radius: 3.5rem;
   background: #fff;
-  width: 15rem;
+  width: 20rem;
   /* width: 300px; */
   text-align: center;
 }
@@ -682,8 +683,11 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
 }
 
 #tracks .box a{
+  position: relative;
+  top: 1rem;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  margin-top: 1rem;
   border-radius: 0.5rem;
   color: #fff;
   background: linear-gradient(to right top, #053c17, #d4ea92b8);

@@ -25,7 +25,7 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    
+    <link rel="stylesheet" href="./css/sponsorstyle.css">
     <link rel="stylesheet" href="./css/footercss.css" />
     <link rel="stylesheet" href="./css/bannerstyle.css">
     <link rel="stylesheet" href="./css/navbarstyle.css">
@@ -288,6 +288,36 @@
         </div>
     
       </div>
+
+      <div class="sponsor-container">
+        <div class="sponsor-heading">
+          <h1 style="font-weight: 900;font-size: 4rem;" >Sponsor</h1>
+        </div>
+        
+        <div class="slideshow-container" >
+        
+          <div class="mySlides fade">
+            <img src="./assets/1.png" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="./assets/2.png" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="./assets/5.png" style="width:100%">
+          </div>
+        
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot active" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+      </div>
+      
       
       
       
@@ -460,7 +490,7 @@ items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
 
      </script>
-
+    <script src="./scripts/sponsor.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

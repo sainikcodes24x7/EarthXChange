@@ -9,9 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,11 +23,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./carouselStyles.css" />
-    <link rel="stylesheet" href="./faq.css" />
-    <link rel="stylesheet" href="./footercss.css" />
-    <link rel="stylesheet" href="./timeline.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    
+    <link rel="stylesheet" href="./css/footercss.css" />
+    <link rel="stylesheet" href="./css/bannerstyle.css">
+    <link rel="stylesheet" href="./css/navbarstyle.css">
+    <link rel="stylesheet" href="./css/timerstyle.css">
+    <link rel="stylesheet" href="./css/aboutstyle.css">
+    <link rel="stylesheet" href="./css/speakerstyle.css">
+    <link rel="stylesheet" href="./css/faqstyle.css">
+    <link rel="stylesheet" href="./css/timelinestyle.css">
+    <link rel="stylesheet" href="./css/trackstyle.css">
+    <link rel="stylesheet" href="./css/location-contactstyle.css">
     <script
       src="https://kit.fontawesome.com/49282bf691.js"
       crossorigin="anonymous"
@@ -210,125 +215,153 @@
         </div>
       </div>
     </div>
-
-
-    <!--Faq-->
-    <!-- <section id="faqs">
-      <div class="wrapper">
-        <h1 class="faqtext">Frequently Asked Questions</h1>
-
-        <div class="faq">
-          <button class="accordion">
-            How to register?
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-          <div class="panel">
-            <p>You can register by clicking on the registeration link</p>
+    <section id="timeline">
+      <h1 class="">Timeline</h2>
+      <div class="timeline">
+        <div class="tlentry left">
+          <div class="date">11:30am</div>
+          <i class="icon fa fa-globe"></i>
+          <div class="tlcontent">
+            <h2>Talk: Climate Change, Disturbance, Intensity and Impacts</h2>
+            <p>Dr. Debajit Datta, Department of Geography, Jadavpur University</p>
           </div>
         </div>
-
-        <div class="faq">
-          <button class="accordion">
-            Can we apply as a team ?What is the maximum team size ?
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-          <div class="panel">
-            <p>
-              Yes! This hackathon is strictly a team competition.A Team can have
-              minimum of 2 members to a maximum of 5 members.
-            </p>
+        <div class="tlentry right">
+          <div class="date">11:45am</div>
+          <i class="icon fa fa-android"></i>
+          <div class="tlcontent">
+            <h2>Talk: Carbon Footprint of Training AI Models</h2>
+            <p>Prof. Kamal Sarkar, Department of Computer Science and Engineering, Jadavpur University</p>
           </div>
         </div>
-        <div class="faq">
-          <button class="accordion">
-            Who can participate and what are the prerequisites ?
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-          <div class="panel">
-            <p>Any student pursuing engineering undergrad.</p>
+        <div class="tlentry left">
+          <div class="date">12:30pm</div>
+          <i class="icon fa fa-bullhorn"></i>
+          <div class="tlcontent">
+            <h2>Talk (online)</h2>
+            <p>Sneha Hedge</p>
+          </div>
+        </div>
+        <div class="tlentry right">
+          <div class="date">4:00pm</div>
+          <i class="icon fa fa-recycle"></i>
+          <div class="tlcontent">
+            <h2>Talk: Bio-degradable Solution</h2>
+            <p>Pallavi</p>
           </div>
         </div>
       </div>
-    </section> -->
-
-
-    <!-- faq v2 -->
-
-    <div id="faq">
-      <div class="faq-container">
-          <div class="row">
-              <div class="col-left" data-aos="zoom-in" data-aos-duration="1000">
-                  <img src="./assets/faq-img.png" alt="">
-              </div>
-              <div class="col-right" data-aos="flip-right" data-aos-duration="1000">
-                  <h1>FAQ</h1>
-                  <ul class="accordian">
-                      <li>
-                          <input type="radio" name="accordian" id="accordian-first" checked>
-                          <label for="accordian-first">Products</label>
-                          <div class="content">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo qui blanditiis ad nobis ipsam minus aliquam inventore? Architecto, fugiat eum veniam modi ratione repellendus.</p>
-                          </div>
-                      </li>
-                      <li>
-                          <input type="radio" name="accordian" id="accordian-second">
-                          <label for="accordian-second">Products</label>
-                          <div class="content">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo qui blanditiis ad nobis ipsam minus aliquam inventore? Architecto, fugiat eum veniam modi ratione repellendus.</p>
-                          </div>
-                      </li>
-                      <li>
-                          <input type="radio" name="accordian" id="accordian-third">
-                          <label for="accordian-third">Products</label>
-                          <div class="content">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo qui blanditiis ad nobis ipsam minus aliquam inventore? Architecto, fugiat eum veniam modi ratione repellendus.</p>
-                          </div>
-                      </li>
-                  </ul>
-              </div>
+      </section>
+      <!-- Location and Contact Section -->
+      <div class="titleloccon">
+        <h1 >Location & Contact Us</h1>
+      </div>
+      <div class="loccon">
+        <div class="location">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.141271809526!2d88.36922361495824!3d22.498882185220797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271237f28abe9%3A0xd047bab0c8bfb11c!2sJadavpur%20University!5e0!3m2!1sen!2sin!4v1684664483958!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact">
+          <div class="conatact-title-container">
+            <h3 class="contact-title">Contact Us</h3>
           </div>
+          <form action="" name="contact-us">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+          </form>
+        </div>
+    
       </div>
-  </div>
+      
+      
+      
+      
+    
 
-    <!-- timeline -->
-  
-  <section id="timeline">
-    <h1 class="">Timeline</h2>
-    <div class="timeline">
-      <div class="tlentry left">
-        <div class="date">11:30am</div>
-        <i class="icon fa fa-globe"></i>
-        <div class="tlcontent">
-          <h2>Talk: Climate Change, Disturbance, Intensity and Impacts</h2>
-          <p>Dr. Debajit Datta, Department of Geography, Jadavpur University</p>
+  <!-- -----faq-v3---- -->
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button id="accordion-button-1" aria-expanded="false">
+          <span class="accordion-title">Why is the moon sometimes out during the day?</span>
+          <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+            Ut tortor pretium viverra suspendisse potenti.
+          </p>
         </div>
       </div>
-      <div class="tlentry right">
-        <div class="date">11:45am</div>
-        <i class="icon fa fa-android"></i>
-        <div class="tlcontent">
-          <h2>Talk: Carbon Footprint of Training AI Models</h2>
-          <p>Prof. Kamal Sarkar, Department of Computer Science and Engineering, Jadavpur University</p>
+      <div class="accordion-item">
+        <button id="accordion-button-2" aria-expanded="false">
+          <span class="accordion-title">Why is the sky blue?</span>
+          <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+            Ut tortor pretium viverra suspendisse potenti.
+          </p>
         </div>
       </div>
-      <div class="tlentry left">
-        <div class="date">12:30pm</div>
-        <i class="icon fa fa-bullhorn"></i>
-        <div class="tlcontent">
-          <h2>Talk (online)</h2>
-          <p>Sneha Hedge</p>
+      <div class="accordion-item">
+        <button id="accordion-button-3" aria-expanded="false">
+          <span class="accordion-title">Will we ever discover aliens?</span>
+          <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+            Ut tortor pretium viverra suspendisse potenti.
+          </p>
         </div>
       </div>
-      <div class="tlentry right">
-        <div class="date">4:00pm</div>
-        <i class="icon fa fa-recycle"></i>
-        <div class="tlcontent">
-          <h2>Talk: Bio-degradable Solution</h2>
-          <p>Pallavi</p>
+      <div class="accordion-item">
+        <button id="accordion-button-4" aria-expanded="false">
+          <span class="accordion-title">How much does the Earth weigh?</span>
+          <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+            Ut tortor pretium viverra suspendisse potenti.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button id="accordion-button-5" aria-expanded="false">
+          <span class="accordion-title">How do airplanes stay up?</span>
+          <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+            Ut tortor pretium viverra suspendisse potenti.
+          </p>
         </div>
       </div>
     </div>
-    </section>
+  </div>
+  
+  
+  
 
     <footer class="footer">
       <div class="footer-container">
@@ -393,6 +426,46 @@
 
     <script src="scripts/nav.js"></script>
     <script src="scripts/index.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw3wEeReqjKtT30sECzxzO1qHvpjYKe5nL2kWzFIjI_wNUsbRg-gN00lafiTWDcg61E6Q/exec'
+      const form = document.forms['contact-us']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            form.reset()
+            console.log('Success!', response)})
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         offset: 20,
+         delay: 0
+       });
+     </script>
+     <script>
+      const items = document.querySelectorAll('.accordion button');
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+
+
+     </script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -409,13 +482,5 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        offset: 240,
-        delay: 0
-      });
-    </script>
   </body>
 </html>

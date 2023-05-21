@@ -32,7 +32,6 @@ input{
     font-size: 1rem;
     outline: none;
     border-radius: 10px;
-    border: 1px 1px 1px 1px #bbb;
     border-color: #ced4da;
 }
 textarea{
@@ -45,12 +44,10 @@ textarea{
 }
 input:focus{
     border-color: var(--blue);
-   box-shadow: 0 0 0 .2rem #CFEBFF;
 }
 
 textarea:focus{
    border-color: var(--blue);
-   box-shadow: 0 0 0 .2rem #CFEBFF;
 }
 
 label{
@@ -59,12 +56,13 @@ label{
 }
 
 .btn-submit{
-    padding: 5px;
-    background-color: green;
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 20px;
-    border-color: #ffffff;
+    position: relative;
+    top: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #354A36;
 
 }
 

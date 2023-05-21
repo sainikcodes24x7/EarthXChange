@@ -1,0 +1,70 @@
+
+/* tracks section css */
+
+.tracks-container .tracktitle{
+  color: #ffffff;
+}
+#tracks-container{
+
+    background-color: #354A36;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  #tracks-container h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  
+  #tracks-container h2{
+    font-size: 1.75rem;
+  }
+  
+  #tracks{
+    margin: 34px;
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #tracks .box{ 
+    padding: 2rem;
+    padding-bottom: 4rem;
+    margin: 5px;
+    border-top-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+    background: #fff;
+    width: 20rem;
+    /* width: 300px; */
+    text-align: center;
+  }
+  #tracks .box img{ 
+    height: 10rem;
+    margin: auto;
+    display: block;
+  }
+  
+  #tracks .box a{
+    position: relative;
+    top: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #354A36;
+}
+
+  
+#Tracks{
+    background: linear-gradient(to right top, #053c17, #d4ea92b8);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}

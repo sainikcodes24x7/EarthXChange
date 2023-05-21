@@ -1,0 +1,92 @@
+.titleloccon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.loccon{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+}
+
+.loccon .location{
+    width: 35%;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loccon .contact{
+    width: 35%;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 10px;
+    border-color: #ced4da;
+}
+textarea{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 10px;
+
+}
+input:focus{
+    border-color: var(--blue);
+}
+
+textarea:focus{
+   border-color: var(--blue);
+}
+
+label{
+    margin-bottom: 0.25rem;
+    display: inline-block;
+}
+
+.btn-submit{
+    position: relative;
+    top: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #354A36;
+
+}
+
+.btn-submit:hover{
+    background-color: rgb(82, 160, 82);
+    
+    transition-duration: 0.5s;
+}
+
+@media (max-width:768px){
+    .loccon{
+        width: 100%;
+        display: inline-block;
+    }
+    .loccon .location{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .loccon .contact{
+        width: 70%;
+        display: inline;
+    }
+
+}

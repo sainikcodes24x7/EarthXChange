@@ -1,8 +1,12 @@
 
 /* tracks section css */
+
+.tracks-container .tracktitle{
+  color: #ffffff;
+}
 #tracks-container{
 
-    background: linear-gradient(to right top, #053c17, #d4ea92b8);
+    background-color: #354A36;
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
@@ -51,8 +55,9 @@
     margin-top: 1rem;
     border-radius: 0.5rem;
     color: #fff;
-    background: linear-gradient(to right top, #053c17, #d4ea92b8);
-  }
+    background-color: #354A36;
+}
+
   
 #Tracks{
     background: linear-gradient(to right top, #053c17, #d4ea92b8);

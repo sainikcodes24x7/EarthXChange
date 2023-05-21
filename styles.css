@@ -58,7 +58,7 @@ main {
   opacity: 60%;
   height: 80vh;
   background-size: 100%;
-  background-image: url(../assets/collab.png);
+  background-image: url(./assets/collab.png);
   background-position:0cm;
 }
 

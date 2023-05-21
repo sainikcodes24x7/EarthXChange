@@ -46,10 +46,9 @@ main {
 
 .climate-change {
   background: white;
-  min-height: 80vh;
   width: 90%;
   max-width: 60rem;
-  margin: 7rem;
+  margin: 5rem;
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(2rem);
@@ -57,6 +56,10 @@ main {
   flex-direction: column;
   align-items: center;
   opacity: 60%;
+  height: 80vh;
+  background-size: 100%;
+  background-image: url(./assets/collab.png);
+  background-position:0cm;
 }
 
 .circle1,
@@ -84,10 +87,17 @@ main {
   position: absolute;
 }
 
-img {
+.media-content {
+  padding-top: 35px;
   box-sizing: content-box;
   max-width: 100%;
   height: auto;
+  padding-bottom: 35px;
+}
+@media (max-width:768px) {
+  .climate-change{
+    height: 45vh;
+  }
 }
 
 /* Responsive styles */
@@ -101,7 +111,9 @@ img {
   .climate-change {
     width: 95%;
     margin: 1rem;
+    height: 30vh;
   }
+  
   
   .circle1,
   .circle2 {

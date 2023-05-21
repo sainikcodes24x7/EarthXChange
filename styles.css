@@ -33,7 +33,7 @@ h3 {
 main {
   width: 100%;
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
+  
   background: linear-gradient(to right top, #053c17, #d4ea92b8);
   /* background-image: url(./assets/Artboard\ 1.png); */
     /* background-size: cover;
@@ -55,10 +55,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  opacity: 60%;
+  opacity: 95%;
   height: 80vh;
   background-size: 100%;
-  background-image: url(./assets/collab.png);
+  background-image: url(../assets/collab.png);
   background-position:0cm;
 }
 
@@ -94,11 +94,7 @@ main {
   height: auto;
   padding-bottom: 35px;
 }
-@media (max-width:768px) {
-  .climate-change{
-    height: 45vh;
-  }
-}
+
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
@@ -119,6 +115,18 @@ main {
   .circle2 {
     height: 12rem;
     width: 12rem;
+  }
+}
+
+@media (max-width:768px) {
+  .climate-change{
+    height: 25vh;
+  }
+}
+
+@media(max-width:768px){
+  main{
+    height: 45vh;
   }
 }
 
@@ -351,7 +359,7 @@ background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgb
   .climate-change {
     /* height: 40%; */
     margin: 0.5rem;
-    opacity: 60%;
+    opacity: 95%;
   }
   
   .circle1,

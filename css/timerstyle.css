@@ -2,6 +2,7 @@
 .countdown-section {
     width: 100%;
     padding: 2rem 3rem;
+    background-color: #F3C7C0;
   }
   
   .row {
@@ -22,6 +23,7 @@
   .counter {
     display: flex;
     width: 100%;
+    
   }
   
   .day,
@@ -33,8 +35,9 @@
     padding: 1.5rem;
     margin: 0.5rem;
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid #7A728F;
     border-radius: 5px;
+    background-color: #F5D9CE;
   }
   
   @media (max-width: 768px) {
@@ -121,7 +124,7 @@
     
     nav {
       padding: 0 1.5rem;
-      opacity: 60%;
+      
     }
     
     nav .logo a {

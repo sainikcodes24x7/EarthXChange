@@ -7,12 +7,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    padding-bottom: 10px;
+    
   }
   .about-text{
     position: absolute;
-    height: 50%;
+    height: 45%;
     width: 500px;
     top: 32%;
+    
   }
   .about-heading{
     font-size: 35px;
@@ -29,7 +32,7 @@
       background-size: 100% 100%;
     }
     .about-text{
-      width: 330px;
+      width: 250px;
       /* top: 300px; */
     }
     .about-text>p{
@@ -51,7 +54,7 @@
       margin-bottom: 10px;
     }
     .about-text{
-      width: 250px;
+      width: 300px;
       /* top: 200px; */
     }
     .about-text>p{

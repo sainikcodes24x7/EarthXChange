@@ -9,6 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -207,8 +210,10 @@
         </div>
       </div>
     </div>
+
+
     <!--Faq-->
-    <section id="faqs">
+    <!-- <section id="faqs">
       <div class="wrapper">
         <h1 class="faqtext">Frequently Asked Questions</h1>
 
@@ -244,7 +249,48 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+
+    <!-- faq v2 -->
+
+    <div id="faq">
+      <div class="faq-container">
+          <div class="row">
+              <div class="col-left" data-aos="zoom-in" data-aos-duration="1000">
+                  <img src="./assets/faq-img.png" alt="">
+              </div>
+              <div class="col-right" data-aos="flip-right" data-aos-duration="1000">
+                  <h1>FAQ</h1>
+                  <ul class="accordian">
+                      <li>
+                          <input type="radio" name="accordian" id="accordian-first" checked>
+                          <label for="accordian-first">Products</label>
+                          <div class="content">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo qui blanditiis ad nobis ipsam minus aliquam inventore? Architecto, fugiat eum veniam modi ratione repellendus.</p>
+                          </div>
+                      </li>
+                      <li>
+                          <input type="radio" name="accordian" id="accordian-second">
+                          <label for="accordian-second">Products</label>
+                          <div class="content">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo qui blanditiis ad nobis ipsam minus aliquam inventore? Architecto, fugiat eum veniam modi ratione repellendus.</p>
+                          </div>
+                      </li>
+                      <li>
+                          <input type="radio" name="accordian" id="accordian-third">
+                          <label for="accordian-third">Products</label>
+                          <div class="content">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo qui blanditiis ad nobis ipsam minus aliquam inventore? Architecto, fugiat eum veniam modi ratione repellendus.</p>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- timeline -->
   
   <section id="timeline">
     <h1 class="">Timeline</h2>
@@ -363,5 +409,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 240,
+        delay: 0
+      });
+    </script>
   </body>
 </html>

@@ -5,7 +5,7 @@ nav li {
   
   nav ul li a {
     text-decoration: none;
-    color: rgb(239 239 239);
+    color: #000000;
     font-size: 1rem;
     position: relative;
   }
@@ -14,7 +14,7 @@ nav li {
     content: '';
     width: 0;
     height: 3px;
-    background-color: rgb(209, 242, 214);
+    background-color: #000000;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -32,19 +32,18 @@ nav li {
     width: 100%;
     height: 60px;
     /* background-color: #3c6255cc; */
-    background: rgb(203,230,132);
-  background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgba(55,143,62,1) 100%);
+    background-color: #90d359;
     margin: 0 auto;
     padding: 0 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    opacity:60%;
+    
   }
   
   nav .logo a{
     text-decoration: none;
-    color: white;
+    
   }
   
   nav .links{
@@ -53,7 +52,7 @@ nav li {
   }
   
   nav .toggle_btn {
-    color: white;
+   
     cursor: pointer;
     display: none;
   }
@@ -65,8 +64,8 @@ nav li {
     right: 3rem;
     top: 4.2rem;
     height: 0;
-    width: 11rem;
-    background: rgb(203,230,132);
+    width: 30rem;
+    background: #E9C8C4;
   background: radial-gradient(circle, rgba(203,230,132,0.8632703081232493) 0%, rgba(148,233,155,1) 100%);
     backdrop-filter: blur(15px);
     border-radius: 0.75rem;
@@ -110,7 +109,6 @@ nav li {
   
   @media (max-width: 576px) {
     .dropdown_menu{
-        left: 3rem;
         width: unset;
     }
   }

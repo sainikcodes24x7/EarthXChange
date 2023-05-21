@@ -97,18 +97,24 @@ main {
       height: 30vh;
     }
     
-    
-    .circle1,
-    .circle2 {
+    .circle2{
+      display: none;
+    }
+    .circle1{
       height: 12rem;
       width: 12rem;
     }
+    
   }
   
   @media (max-width:768px) {
     .climate-change{
       height: 25vh;
     }
+    .register-btn{
+      margin: 0vh;
+    }
+   
   }
   
   @media(max-width:768px){
@@ -116,3 +122,31 @@ main {
       height: 45vh;
     }
   }
+.register-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3C7C0;
+}
+.register-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #90d359;
+    width: 30%;
+    height: 40px;
+    
+}
+
+@media(max-width:768px){
+  .register-button{
+    width: 40%;
+  }
+}

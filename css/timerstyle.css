@@ -5,12 +5,12 @@
     background-color: #F3C7C0;
   }
   
-  .row {
+  .timer-row {
     display: flex;
     justify-content: space-between;
   }
   
-  .col {
+  .timer-col {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,12 +44,12 @@
     .countdown-section {
       padding: 30px 0;
     }
-    .row {
+    .timer-row {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
-    .col {
+    .timer-col {
       flex: 1;
     }
     .day,

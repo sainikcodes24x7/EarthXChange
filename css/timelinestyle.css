@@ -93,16 +93,16 @@
 }
 
 .tlentry.left .date {
-  right: -75px;
+  right: -80px;
 }
 .tlentry.left1 .date {
-  right: -9rem;
+  right: -9.5rem;
 }
 .tlentry.left2 .date {
   right: -6.5rem;
 }
 .tlentry.right .date {
-  left: -75px;
+  left: -80px;
 }
 .tlentry.right1 .date {
   left: -9rem;
@@ -169,6 +169,11 @@
     padding-right: 30px;
   }
 
+  .tlentry .date {
+    width: 3rem;
+    
+  }
+
   .tlentry.right {
     left: 0%;
   }
@@ -187,7 +192,7 @@
   .tlentry.left .date,
   .tlentry.right .date {
     right: auto;
-    left: 15px;
+    left: 12px;
   }
 
   .tlentry.left .icon,
@@ -201,20 +206,11 @@
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
-  .tlentry.left .date {
+  /* .tlentry.left .date {
     left: -75px;
-  }
-  .tlentry.left1 .date {
-    left: -50px;
-  }
-  .tlentry.left2 .date {
-    left: -50px;
   }
   .tlentry.right .date {
     left: -50px;
-  }
-  .tlentry.right1 .date {
-    left: -50px;
-  }
+  } */
   }
   
